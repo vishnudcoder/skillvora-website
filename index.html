@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Skillvora Coaching Institute | Data Science & Python Training</title>
+
+  <meta name="description"
+  content="Learn Data Science, Python, AWS Cloud, Embedded Systems, IOT and Cyber Security in Bangalore.">
+
+  <meta name="keywords"
+  content="Data Science Bangalore, Python Course Bangalore, AWS Training, Cyber Security Institute, VLSI, Embedded Systems">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial,sans-serif;
+    }
+
+    body{
+      background:#f4f7fb;
+      color:#222;
+      line-height:1.6;
+    }
+
+    header{
+      background:linear-gradient(135deg,#0f172a,#1e3a8a);
+      color:white;
+      padding:20px 10%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+
+    header h1{
+      font-size:28px;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin-left:20px;
+      font-weight:bold;
+    }
+
+    .hero{
+      height:90vh;
+
+      background:
+      linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+      url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1400&auto=format&fit=crop');
+
+      background-size:cover;
+      background-position:center;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+
+      color:white;
+      padding:20px;
+    }
+
+    .hero-content h2{
+      font-size:clamp(32px,6vw,52px);
+      margin-bottom:20px;
+    }
+
+    .hero-content p{
+      font-size:clamp(16px,3vw,20px);
+      margin-bottom:25px;
+    }
+
+    .btn{
+      background:#2563eb;
+      color:white;
+      padding:14px 28px;
+      border-radius:8px;
+      text-decoration:none;
+      font-size:18px;
+      transition:0.3s;
+      display:inline-block;
+      text-align:center;
+    }
+
+    .btn:hover{
+      background:#1d4ed8;
+    }
+
+    section{
+      padding:70px 10%;
+    }
+
+    .section-title{
+      text-align:center;
+      font-size:36px;
+      margin-bottom:40px;
+      color:#1e3a8a;
+    }
+
+    .courses{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .course-card{
+      background:white;
+      padding:25px;
+      border-radius:12px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .course-card:hover{
+      transform:translateY(-5px);
+    }
+
+    .course-card h3{
+      margin-bottom:15px;
+      color:#1e40af;
+    }
+
+    .price{
+      font-size:24px;
+      color:green;
+      margin-top:15px;
+      font-weight:bold;
+    }
+
+    .about{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:40px;
+      align-items:center;
+    }
+
+    .about img{
+      width:100%;
+      border-radius:15px;
+    }
+
+    .contact-box{
+      background:white;
+      padding:30px;
+      border-radius:12px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+      text-align:center;
+    }
+
+    footer{
+      background:#0f172a;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    .whatsapp{
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:white;
+      padding:14px 18px;
+      border-radius:50px;
+      text-decoration:none;
+      font-weight:bold;
+      box-shadow:0 4px 10px rgba(0,0,0,0.3);
+      z-index:999;
+    }
+
+    .whatsapp:hover{
+      background:#1ebe5d;
+    }
+
+    @media(max-width:768px){
+
+      header{
+        flex-direction:column;
+        text-align:center;
+      }
+
+      nav{
+        margin-top:10px;
+      }
+
+      nav a{
+        display:inline-block;
+        margin:10px;
+      }
+
+      section{
+        padding:50px 5%;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<header>
+
+  <h1>Skillvora Coaching Institute</h1>
+
+  <nav>
+    <a href="#courses">Courses</a>
+    <a href="#about">About</a>
+    <a href="#social">Social</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <div class="hero-content">
+
+    <h2>Build Your Career In Tech</h2>
+
+    <p>
+      Learn Data Science, Python, AWS Cloud, VLSI, Embedded Systems & Cyber Security
+    </p>
+
+    <a href="#contact" class="btn">
+      Join Now
+    </a>
+
+  </div>
+
+</section>
+
+<section id="courses">
+
+  <h2 class="section-title">
+    Our Courses
+  </h2>
+
+  <div class="courses">
+
+    <div class="course-card">
+      <h3>Data Analyst</h3>
+      <p>Learn SQL, Power BI, Excel and Python for analytics.</p>
+      <div class="price">₹9,999</div>
+    </div>
+
+    <div class="course-card">
+      <h3>Full Stack Python</h3>
+      <p>Frontend, Backend, Database and Real-time projects.</p>
+      <div class="price">₹14,999</div>
+    </div>
+
+    <div class="course-card">
+      <h3>AWS Cloud</h3>
+      <p>Master cloud computing and deployment skills.</p>
+      <div class="price">₹12,999</div>
+    </div>
+
+    <div class="course-card">
+      <h3>Data Science</h3>
+      <p>Machine Learning, AI, Python and Visualization.</p>
+      <div class="price">₹19,999</div>
+    </div>
+
+    <div class="course-card">
+      <h3>Cyber Security</h3>
+      <p>Ethical Hacking, Network Security and Cyber Tools.</p>
+      <div class="price">₹19,999</div>
+    </div>
+
+    <div class="course-card">
+      <h3>IOT</h3>
+      <p>Learn Internet of Things, Sensors, Arduino, Raspberry Pi and Smart Systems.</p>
+      <div class="price">₹19,999</div>
+    </div>
+
+    <div class="course-card">
+      <h3>Embedded Systems</h3>
+      <p>Learn Microcontrollers, Embedded C, ARM, RTOS and Hardware Interfacing.</p>
+      <div class="price">₹19,999</div>
+    </div>
+
+    <div class="course-card">
+      <h3>VLSI</h3>
+      <p>Learn Verilog, Digital Design, ASIC Flow and Semiconductor Concepts.</p>
+      <div class="price">₹19,999</div>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="about">
+
+  <h2 class="section-title">
+    About Us
+  </h2>
+
+  <div class="about">
+
+    <img
+    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+    alt="Institute">
+
+    <div>
+
+      <h3>Why Choose Us?</h3>
+
+      <br>
+
+      <p>
+        We provide industry-focused training programs designed for students and working professionals.
+        Our courses include live projects, interview preparation and placement guidance.
+      </p>
+
+      <br>
+
+      <p>
+        Locations:
+      </p>
+
+      <ul style="margin-left:20px;margin-top:10px;">
+        <li>Bangalore, Marathahalli</li>
+        <li>Maharashtra, Nashik</li>
+        <li>Telangana, Hyderabad</li>
+        <li>Vijayawada, Andhra Pradesh</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="social">
+
+  <h2 class="section-title">
+    Join Our Community
+  </h2>
+
+  <div class="contact-box">
+
+    <h3>Join Skillvora WhatsApp Group</h3>
+
+    <br>
+
+    <img
+    src="whatsapp-group.jpeg"
+    alt="WhatsApp Group QR"
+    style="max-width:300px;width:100%;border-radius:12px;">
+
+    <br><br>
+
+    <a
+    class="btn"
+    href="https://share.google/P0mo27qsCt5hsJopq"
+    target="_blank">
+
+    Join WhatsApp Group
+
+    </a>
+
+    <br><br>
+
+    <p>
+      <strong>Email:</strong>
+      skillvora621@gmail.com
+    </p>
+
+    <br>
+
+    <p>
+      <strong>Instagram:</strong>
+
+      <a
+      href="https://www.instagram.com/skillvora_institute?igsh=MXBqdWZoOWExdDFidw=="
+      target="_blank">
+
+      @skillvora_institute
+
+      </a>
+
+    </p>
+
+  </div>
+
+</section>
+
+<section id="contact">
+
+  <h2 class="section-title">
+    Contact Us
+  </h2>
+
+  <div class="contact-box">
+
+    <h3>Skillvora Coaching Institute</h3>
+
+    <br>
+
+    <p>
+      <strong>Phone:</strong>
+      7337226061
+    </p>
+
+    <br>
+
+    <a
+    class="btn"
+    href="https://wa.me/917337226061"
+    target="_blank">
+
+    Chat on WhatsApp
+
+    </a>
+
+  </div>
+
+</section>
+
+<footer>
+
+  <p>
+    © 2026 Skillvora Team | All Rights Reserved
+  </p>
+
+</footer>
+
+<a
+href="https://wa.me/917337226061"
+target="_blank"
+class="whatsapp">
+
+WhatsApp
+
+</a>
+
+</body>
+</html>
